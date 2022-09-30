@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -26,13 +27,12 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 100,
             ),
-            const Text(
+            Text(
               'DIAMOND IN THE SKY',
-              style: TextStyle(
-                  fontWeight: FontWeight.w900,
+              style: GoogleFonts.jockeyOne(
+                  fontWeight: FontWeight.bold,
                   color: Colors.white,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28),
+                  fontSize: 24),
             ),
             const Spacer(),
             Expanded(
