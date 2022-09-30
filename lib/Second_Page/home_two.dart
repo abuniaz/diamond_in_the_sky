@@ -18,6 +18,7 @@ class HomeTwo extends StatelessWidget {
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Image.asset(
                   'images/e1.gif',

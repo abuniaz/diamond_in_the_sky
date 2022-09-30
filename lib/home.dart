@@ -1,3 +1,4 @@
+import 'package:diamond_in_the_sky/Second_Page/home_two.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -40,7 +41,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   FirstButton(
-                    press: () {},
+                    press: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: ((context) => const HomeTwo())));
+                    },
                     title: 'LEARN\nTO\nPLAY',
                   ),
                   SecondButton(
@@ -70,7 +76,7 @@ class FirstButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: press,
       child: Container(
         height: 100,
         width: 100,
@@ -111,7 +117,7 @@ class SecondButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: press,
       child: Container(
         height: 100,
         width: 100,

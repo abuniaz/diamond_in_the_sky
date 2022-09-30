@@ -1,4 +1,3 @@
-import 'package:diamond_in_the_sky/Second_Page/home_two.dart';
 import 'package:diamond_in_the_sky/home.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeTwo(),
+      home: const MyHomePage(),
     );
   }
 }
