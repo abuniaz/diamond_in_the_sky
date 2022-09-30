@@ -27,7 +27,13 @@ class HomeTwo extends StatelessWidget {
                 ),
               ],
             ),
-            Image.asset('images/p3.png')
+            Row(
+              children: [
+                Image.asset('images/h1.png'),
+                Image.asset('images/p3.png'),
+                Image.asset('images/f1.png'),
+              ],
+            )
           ],
         ),
       ),
