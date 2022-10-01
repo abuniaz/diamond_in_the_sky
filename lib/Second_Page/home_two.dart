@@ -9,7 +9,7 @@ class HomeTwo extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-height: double.infinity,
+          height: double.infinity,
 
           width: double.infinity,
 
@@ -33,7 +33,7 @@ height: double.infinity,
                     ),
                   ],
                 ),
-                const Spacer(),
+
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
