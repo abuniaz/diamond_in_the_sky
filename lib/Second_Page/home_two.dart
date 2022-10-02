@@ -22,18 +22,34 @@ class HomeTwo extends StatelessWidget {
               children: [
                 Image.asset(
                   'images/e1.gif',
-                  height: 450,
-                  width: 450,
+                  height: 380,
+                  width: 380,
                 ),
               ],
             ),
-            Row(
-              children: [
-                Image.asset('images/h1.png'),
-                Image.asset('images/p3.png'),
-                Image.asset('images/f1.png'),
-              ],
-            )
+            Container(
+                height: 100,
+                width: double.infinity,
+                decoration: BoxDecoration(),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.asset(
+                        'images/h1.png',
+                        height: 80,
+                        width: 80,
+                      ),
+                      Image.asset(
+                        'images/p3.png',
+                        height: 330,
+                        width: 350,
+                      ),
+                      Image.asset(
+                        'images/f1.png',
+                        height: 80,
+                        width: 80,
+                      ),
+                    ]))
           ],
         ),
       ),
