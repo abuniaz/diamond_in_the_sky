@@ -2,6 +2,7 @@ import 'package:diamond_in_the_sky/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -10,6 +11,7 @@ Future<void> main() async {
   await SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
