@@ -31,25 +31,23 @@ class HomeTwo extends StatelessWidget {
                 height: 100,
                 width: double.infinity,
                 decoration: BoxDecoration(),
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Image.asset(
-                        'images/h1.png',
-                        height: 80,
-                        width: 80,
-                      ),
-                      Image.asset(
-                        'images/p3.png',
-                        height: 330,
-                        width: 350,
-                      ),
-                      Image.asset(
-                        'images/f1.png',
-                        height: 80,
-                        width: 80,
-                      ),
-                    ]))
+                child: Row(children: [
+                  Image.asset(
+                    'images/h1.png',
+                    height: 80,
+                    width: 80,
+                  ),
+                  Image.asset(
+                    'images/p3.png',
+                    height: 330,
+                    width: 350,
+                  ),
+                  Image.asset(
+                    'images/f1.png',
+                    height: 80,
+                    width: 80,
+                  ),
+                ]))
           ],
         ),
       ),
